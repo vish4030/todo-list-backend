@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 
 
-mongoose.connect("mongodb+srv://vish4030:1234mongo@cluster0.f8xhe5a.mongodb.net/todoData").then(() => { console.log("mongodb connected") }).catch(
+mongoose.connect("mongodb+srv://vish4030:*********@cluster0.f8xhe5a.mongodb.net/todoData").then(() => { console.log("mongodb connected") }).catch(
     (err) => { console.log(err) }
 );
 
